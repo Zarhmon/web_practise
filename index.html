@@ -4,42 +4,159 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="HTML, CSS" />
-    <meta name="description" content="webpage search info" />
-    <title>Document</title>
-    <style>
-      em    {
-        color: red;
-        font-size: normal;
-      }
-      img   {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-
-      }
-    </style>
+    <title>Zarhmon Knipping Digital Portfolio</title>
   </head>
   <body>
-    <h1>HEADING 1</h1>
-    <h2>HTML</h2>
-    <p>HTML tutorial</p>
-    <h3>CODE</h3>
-    <h3>Exercise</h3>
-    <h2>CSS tutorial</h2>
+    <style>
+      .header-1 {
+        text-align: center;
+      }
+      .header-2 {
+        text-align: center;
+      }
+      .container-1 {
+        justify-content: space-between;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .container-2 {
+        justify-content: space-between;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 24px;
+      }
+      .container-3 {
+        justify-content: space-between;
+        display: flex;
+        margin: 0;
+        text-align: center;
+        border: 2px solid;
+      }
+      .container-4 {
+        display: flex;
+        gap: 24px;
+      }
+      .container-2 div,
+      .container-3 div, 
+      .container-1 div, 
+      .container-4 div {
+        border: none;
+        padding: 10px;
+      }
+      .box-1, .box-2, .box-3, 
+      .box-4, .box-5, .box-6, 
+      .box-7 {
+        flex: 1;
+      }
 
-    <p>
-      <a href="company/about.html">About me!</a>>
-      <a href="images/norska.jpg" download>My photo</a>
-      <a href="#section_css"></a>
-      <a href="https://google.com" target="_blank">Google</a>
-      <a href="mailto:programmingwithmosh@gmail.com">Email</a>
-      <h2>HTML</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam tempora nisi enim dicta accusamus, rem et laudantium, commodi quia error itaque officia repellendus fugiat deleniti quis voluptas. Quia magnam eveniet cumque, eaque odit non est beatae dolor repellat nesciunt esse amet sint hic rerum molestias repudiandae voluptates sapiente reiciendis explicabo, nulla quod asperiores ea? Laboriosam accusamus sequi, architecto exercitationem pariatur, dolorum neque tenetur eveniet eum animi voluptatibus? Nobis, accusamus? Dolor hic vel placeat tempore enim a? Inventore, laudantium quia? Labore voluptatibus exercitationem pariatur provident vitae saepe suscipit quod vel debitis. Tempore sed animi in odit commodi dolor earum aliquid quos facere, nostrum praesentium? Veritatis, excepturi corporis numquam cumque, sapiente commodi soluta debitis ab totam rem magni quaerat consectetur dolorum blanditiis! Eum vel, quam unde commodi natus tempora exercitationem dolore mollitia quo enim deleniti sit debitis perspiciatis sapiente delectus beatae, itaque reiciendis quae reprehenderit cupiditate necessitatibus pariatur molestias officiis laboriosam. Molestias unde quae odit optio nostrum eum impedit velit quod nemo dignissimos architecto eaque consectetur vel in asperiores, quam neque sint quis? Consequatur placeat fugit optio rem quam delectus temporibus possimus ea facilis vero ad fugiat doloremque libero corporis modi, fuga vitae minima, aspernatur harum. Quis unde asperiores voluptas ab doloremque.</p>
-      <h2 id="section_css">CSS</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eligendi debitis libero explicabo eaque minus ex error, magnam iste quod quas neque voluptatum aliquid harum earum nobis dolorem sunt commodi ipsum nam. Similique cupiditate saepe quis porro, facere dignissimos numquam est cumque deleniti vero tempora necessitatibus debitis! Fugit aliquam sequi deleniti voluptate quos. Porro vel eligendi, voluptas excepturi aperiam, quis est ratione beatae esse ab eos architecto, impedit unde quam neque! Ex aspernatur minima, reprehenderit laborum distinctio velit eum omnis? Quasi reiciendis soluta et quos esse, mollitia harum neque sapiente nihil vero explicabo repellendus nulla! Mollitia suscipit rem quibusdam sapiente vel aliquid, obcaecati soluta tempore voluptas ut ullam ab cum fuga quam qui asperiores animi adipisci. Porro facere saepe ipsa repudiandae voluptate architecto temporibus necessitatibus natus dolore ad a explicabo veritatis ducimus est, blanditiis quas ratione, iure doloribus. Vel id totam, voluptatem optio mollitia sed, amet dignissimos quidem aliquam modi neque, pariatur molestias veniam voluptas sequi omnis rem facilis molestiae quaerat consectetur! Id, unde assumenda, et hic dolorem quaerat incidunt fugiat facilis sunt, ducimus repellendus. Eius laboriosam atque dolor tempora est vitae dicta! Enim assumenda dolore natus. Ipsa, quidem explicabo commodi, iste rem impedit tenetur sit voluptate id officia necessitatibus.</p>
-    </p>
-    <a href="#">Jump to top</a>
-    <img src="images/coffee.jpg" alt="Two coffees on a table">
+      .box-8 {
+        flex: 1;
+        height: 230px;
+        width: 230px;
+        border: 2px solid;
+      }
+      .box-8 {
+        flex: 1;
+      }
+      
+      .container-1-image {
+        width: 90px;
+        height: 90px;
+      }
+      .container-2-image {
+        width: 240px;
+        height: 400px;
+        border-color: black;
+        object-fit: contain;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .display-pic {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 100px;
+        border: 2px solid;
+      }
+
+    </style>
+    <h1 class="header-1">Zarhmon Knipping Portfolio</h1>
+    <div class="container-1">
+      <div class="box-1">
+        <img class="container-1-image" src="images\github.png" alt="display github logo">
+        <br>
+        <a href="https://github.com/Zarhmon" target="_blank">Github</a>
+      </div>
+      <div class="box-2">
+        <img class="container-1-image" src="images\linkedin.png" alt="display linkedin logo">
+        <br>
+        <a href="https://www.linkedin.com/in/zarhmon-knipping-834059245/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="box-3">
+        <img class="container-1-image" src="images\cfc.png" alt="display cfc logo">
+        <br>
+        <a href="https://www.codersforcauses.org/" target="blank">Coders For Causes</a>
+      </div>
+    </div>
+    <h2 class="header-2">About Me</h2>
+    <div class="container-4">
+      <div class="box-8">
+        <img class="display-pic" src="images\zarhmon.jpg" alt="Display image of Zarhmon">
+      </div>
+      <div class="box-9">
+        <p>
+          My name is Zarhmon Knipping and I am a third year computer science student at the University of Western Australia
+          and plan to graduate at the end of 2023.
+          I am currently undertaking a summer internship at Rio Tinto in the Information Systems & Technology department
+          and hoping to join the Coders for Causes summer projects. 
+          My current projects include learning HTML & CSS through the implementation of this webpage and the CFC projects.
+          My primary language is Python and I plan to continue to improve my knowledge over the summer. 
+          Lastly the C language is commonly used at my University, I will continue to improve with this language to gain a
+          better understanding of implementation of secure practises. 
+          It is my belief that computer science students should use their skills to help solve social issues in the world by 
+          finding unique solutions through the use of technology. <br> <br>
+          In my personal time I primarly spend time with my cat Norska and my partner, we enjoy watching AFL, crime shows
+          and playing games. 
+          My goal is to own a sail boat that and work remotely while traveling.
+          <br>
+          <a href="norska.html" target="_blank">Cat tax.</a>
+          </p>
+      </div>
+    </div>
+    <h2 class="header-2">Projects</h2>
+    <div class="container-2">
+        <div class="box-4">
+          <h3>YuBot</h3>
+          <p>YuBot was a group project create for our client in the CITS3200 unit Professional Computing.
+            The bot had a number of features required for acceptance including, maintaing casual conversation,
+            customisable user avatars, provide entertainment through jokes, search with Google and Google Scholar.
+            Overall we managed to implement the required features but due to the timeframe of 10 weeks the scope was limited.
+            In retrospect the dekstop application should have been a web application for ease of user access and
+            tkinter was used for the GUI but had graphical fedality limitations.  
+          </p>
+          <a class="box-4" href="https://github.com/pavo-etc/cits3200-project" target="_blank">YuBot Repo</a>
+          <p></p>
+          <img class="container-2-image" src="images\Yubot_Login.png" alt="Yubot_Login Image">
+        </div>
+        <div class="box-5">
+            <h3>Box 5</h3>
+            <p>Test text</p>
+        </div>
+      </div>
+
+    <div class="container-3">
+        <div class="box-6">
+            <h3>Box 6</h3>
+            <p> Test Text</p>
+        </div>
+        <div class="box-7">
+            <h3>Box 7</h3>
+            <p>Test Text</p>
+        </div>
   </body>
 </html>
