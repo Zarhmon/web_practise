@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zarhmon Knipping Digital Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <style>
-      .header-1 {
+      .header-1, .header-2 {
         text-align: center;
-      }
-      .header-2 {
-        text-align: center;
+        color:#000000;
       }
       .container-1 {
         justify-content: space-between;
@@ -21,6 +22,7 @@
         text-align: center;
         margin: 0;
         padding: 0;
+        border: 2px solid;
       }
       .container-2 {
         justify-content: space-between;
@@ -35,7 +37,6 @@
         display: flex;
         margin: 0;
         text-align: center;
-        border: 2px solid;
       }
       .container-4 {
         display: flex;
@@ -52,16 +53,18 @@
       .box-4, .box-5, .box-6, 
       .box-7 {
         flex: 1;
+        color: #000000;
       }
 
       .box-8 {
-        flex: 1;
+        flex: 0;
         height: 230px;
         width: 230px;
         border: 2px solid;
       }
-      .box-8 {
+      .box-9 {
         flex: 1;
+        color:#000000;
       }
       
       .container-1-image {
@@ -71,7 +74,7 @@
       .container-2-image {
         width: 240px;
         height: 400px;
-        border-color: black;
+        border-color: #404756;
         object-fit: contain;
         margin-left: auto;
         margin-right: auto;
@@ -79,9 +82,30 @@
       .display-pic {
         width: 200px;
         height: 200px;
-        object-fit: contain;
+        object-fit: scale-down;
         border-radius: 100px;
-        border: 2px solid;
+        border: 1px solid;
+        background-color: black;
+      }
+      body {
+        background-color: #B6B6D0;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .blue {
+        color: #5B63B7;
+      }
+      .black {
+       color: #000000;
+      }
+      .purple {
+        color: #CBCCFF; 
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: black;
       }
 
     </style>
@@ -103,6 +127,7 @@
         <a href="https://www.codersforcauses.org/" target="blank">Coders For Causes</a>
       </div>
     </div>
+
     <h2 class="header-2">About Me</h2>
     <div class="container-4">
       <div class="box-8">
@@ -122,12 +147,13 @@
           finding unique solutions through the use of technology. <br> <br>
           In my personal time I primarly spend time with my cat Norska and my partner, we enjoy watching AFL, crime shows
           and playing games. 
-          My goal is to own a sail boat that and work remotely while traveling.
+          My goal is to own a sail boat and work remotely while traveling.
           <br>
-          <a href="norska.html" target="_blank">Cat tax.</a>
+          <a href="norska.html" target="_blank">Cat tax</a>.
           </p>
       </div>
     </div>
+
     <h2 class="header-2">Projects</h2>
     <div class="container-2">
         <div class="box-4">
@@ -140,7 +166,7 @@
             tkinter was used for the GUI but had graphical fedality limitations.  
           </p>
           <a class="box-4" href="https://github.com/pavo-etc/cits3200-project" target="_blank">YuBot Repo</a>
-          <p></p>
+          <br>
           <img class="container-2-image" src="images\Yubot_Login.png" alt="Yubot_Login Image">
         </div>
         <div class="box-5">
@@ -157,6 +183,6 @@
         <div class="box-7">
             <h3>Box 7</h3>
             <p>Test Text</p>
-        </div>
+        </div>    
   </body>
 </html>
